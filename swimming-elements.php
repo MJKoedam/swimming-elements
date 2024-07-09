@@ -2,7 +2,7 @@
 /*
 Plugin Name: Swimming Elements for Elementor
 Plugin URI: 
-Description: Adds swimming animated elements to your posts/pages using Elementor widgets.
+Description: Adds swimming animated elements to your posts/pages using Elementor widgets. (Gutenberg functionality is planned)
 Version: 1.0.0
 Author: Mart-Jan Koedam
 Author URI: 
