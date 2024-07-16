@@ -97,8 +97,8 @@ class Elementor_Swimming_Element_Widget extends \Elementor\Widget_Base {
             esc_attr( $settings['animation_speed'] )
         );
 
-        echo '<div class="swimming-container ' . $animation_class . '" ' . $custom_styles . '>';
-        echo '<div class="fish-icon">' . $settings['fish_content'] . '</div>';
+        echo '<div class="swimming-container ' . esc_attr($animation_class) . '" ' . esc_attr($custom_styles) . '>';
+        echo '<div class="fish-icon">' . esc_attr($settings['fish_content']) . '</div>';
         echo '</div>';
     }
 

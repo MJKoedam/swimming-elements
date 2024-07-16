@@ -5,7 +5,7 @@
 **Requires at least:** 5.0  
 **Tested up to:** 6.5.5  
 **Requires PHP:** 7.0  
-**Stable tag:** 1.0.0  
+**Stable tag:** 1.0.1
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ Note: At this moment, the plugin only gives a static movement for the element an
 5. Save your changes and preview your Elementor-designed page with the swimming animation.
 
 ## Changelog
+
+### 1.0.1
+- Add escape functions for all variables.
 
 ### 1.0.0
 - Initial release of Swimming Elements plugin.
