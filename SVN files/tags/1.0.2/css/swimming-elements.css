@@ -1,0 +1,42 @@
+/* css/swimming-elements.css */
+
+.swimming-container {
+    position: relative;
+    display: inline-block;
+    animation: swim-up-down var(--animation-speed, 0.8s) ease infinite, rotate var(--animation-speed, 0.8s) ease infinite;
+}
+
+.mirrored {
+    animation: swim-up-down var(--animation-speed, 0.8s) ease infinite, reverse-rotate var(--animation-speed, 0.8s) ease infinite;
+}
+
+.fish-icon {
+    display: inline-block;
+}
+
+@keyframes swim-up-down {
+    0%, 100% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+@keyframes rotate {
+    0%, 15%, 100% {
+        rotate: -10deg;
+    }
+    75% {
+        rotate: 10deg;
+    }
+}
+
+@keyframes reverse-rotate {
+    0%, 15%, 100% {
+        rotate: 10deg;
+    }
+    75% {
+        rotate: -10deg;
+    }
+}
